@@ -10,7 +10,8 @@
     "start:dev": "npm run ts-node:inspect src/start.ts",
     "start:dev:brk": "npm run ts-node:inspect:brk src/start.ts"
   },
-  "main": "lib/dundasSessionProvider.js",
+  "main": "./src/dundasSessionProvider.js",
+  "types": "./src/index",
   "dependencies": {
     "@types/mocha": "^5.2.5",
     "mocha": "^5.2.0",

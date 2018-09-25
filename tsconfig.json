@@ -2,15 +2,14 @@
   "compilerOptions": {
     "target": "es6",
     "module": "commonjs",
-    "outDir": "lib",
     "moduleResolution": "node",
     "noImplicitAny": false,
+    "declaration": false,
     "preserveConstEnums": true,
     "removeComments": false,
     "sourceMap": true,
     "experimentalDecorators": true,
     "noEmitOnError": true,
-    "declaration": false,
     "forceConsistentCasingInFileNames": true,
     "typeRoots": [
       "node_modules/@types"
